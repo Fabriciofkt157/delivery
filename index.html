@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
     <title>Que fome!!!</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <p>kkkkkkhhhhhhhhkkk\b</p>
+    <p>jjjjjju</p>
     <img src="banner1.png" alt= "image" height="45" width=100%>
     <form>
        <input type="search" id="teste">
@@ -14,13 +16,15 @@
       <script>
          var search;
          function Evento(){
-           search = HTMLInputElement.teste;
-            
-           if (search == 1){
-             alert ("funcionando")
-           }
+            search = 1;
+         }
+         function draw (){
+            if (search == 1){
+               image('image1.png')
+            }
          }
       </script>
     </form>
   </body>
 </html>
+
